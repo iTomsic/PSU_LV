@@ -10,6 +10,7 @@ from sklearn import datasets
 import numpy as np
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
+
 def generate_data(n_samples, flagc):
     
     if flagc == 1:
